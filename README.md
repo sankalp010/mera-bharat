@@ -11,7 +11,7 @@ MERA BHARAT is a travel community for sharing stories and photographs, discoveri
 ## Run locally
 
 1. Copy `.env.example` to `.env` and set `SESSION_SECRET` to a long random value. Set `MONGODB_URI` if MongoDB is not running at the example local address.
-2. Install dependencies from the repository root with `npm install`.
+2. Install dependencies from the repository root with `npm install` and `npm install --prefix client`.
 3. Start the API and Vite development server with `npm run dev`.
 4. Open <http://localhost:5173>. The API runs at <http://localhost:4000> and Vite proxies `/api` and `/uploads` to it.
 
